@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x11 J2
+U 1 1 5E10D884
+P 5950 3450
+F 0 "J2" H 6030 3492 50  0000 L CNN
+F 1 "Conn_01x11" H 6030 3401 50  0000 L CNN
+F 2 "DecadeRbox:SwitchPad" H 5950 3450 50  0001 C CNN
+F 3 "~" H 5950 3450 50  0001 C CNN
+	1    5950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5E10EA98
+P 5950 2750
+F 0 "J1" H 6030 2792 50  0000 L CNN
+F 1 "Conn_01x01" H 6030 2701 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5950 2750 50  0001 C CNN
+F 3 "~" H 5950 2750 50  0001 C CNN
+	1    5950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5E10EC81
+P 5950 4150
+F 0 "J3" H 6030 4192 50  0000 L CNN
+F 1 "Conn_01x01" H 6030 4101 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5950 4150 50  0001 C CNN
+F 3 "~" H 5950 4150 50  0001 C CNN
+	1    5950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E10F1B8
+P 5200 2700
+F 0 "R1" H 5259 2746 50  0000 L CNN
+F 1 "10" H 5259 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 2700 50  0001 C CNN
+F 3 "~" H 5200 2700 50  0001 C CNN
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5E110307
+P 5200 2900
+F 0 "R2" H 5259 2946 50  0000 L CNN
+F 1 "10" H 5259 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 2900 50  0001 C CNN
+F 3 "~" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5E110941
+P 5200 3100
+F 0 "R3" H 5259 3146 50  0000 L CNN
+F 1 "10" H 5259 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 3100 50  0001 C CNN
+F 3 "~" H 5200 3100 50  0001 C CNN
+	1    5200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5E110947
+P 5200 3300
+F 0 "R4" H 5259 3346 50  0000 L CNN
+F 1 "10" H 5259 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 3300 50  0001 C CNN
+F 3 "~" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5E1117F7
+P 5200 3500
+F 0 "R5" H 5259 3546 50  0000 L CNN
+F 1 "10" H 5259 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5E1117FD
+P 5200 3700
+F 0 "R6" H 5259 3746 50  0000 L CNN
+F 1 "10" H 5259 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 3700 50  0001 C CNN
+F 3 "~" H 5200 3700 50  0001 C CNN
+	1    5200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5E111803
+P 5200 3900
+F 0 "R7" H 5259 3946 50  0000 L CNN
+F 1 "10" H 5259 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 3900 50  0001 C CNN
+F 3 "~" H 5200 3900 50  0001 C CNN
+	1    5200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5E111809
+P 5200 4100
+F 0 "R8" H 5259 4146 50  0000 L CNN
+F 1 "10" H 5259 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 4100 50  0001 C CNN
+F 3 "~" H 5200 4100 50  0001 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5E111A3A
+P 5200 4300
+F 0 "R9" H 5259 4346 50  0000 L CNN
+F 1 "10" H 5259 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5200 4300 50  0001 C CNN
+F 3 "~" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2950 5750 2750
+Wire Wire Line
+	5750 3050 5700 3050
+Wire Wire Line
+	5700 3050 5700 2600
+Wire Wire Line
+	5700 2600 5200 2600
+Wire Wire Line
+	5200 2800 5650 2800
+Wire Wire Line
+	5650 2800 5650 3150
+Wire Wire Line
+	5650 3150 5750 3150
+Connection ~ 5200 2800
+Wire Wire Line
+	5750 3250 5600 3250
+Wire Wire Line
+	5600 3250 5600 3000
+Wire Wire Line
+	5600 3000 5200 3000
+Connection ~ 5200 3000
+Wire Wire Line
+	5200 3200 5550 3200
+Wire Wire Line
+	5550 3200 5550 3350
+Wire Wire Line
+	5550 3350 5750 3350
+Connection ~ 5200 3200
+Wire Wire Line
+	5750 3450 5500 3450
+Wire Wire Line
+	5500 3450 5500 3400
+Wire Wire Line
+	5500 3400 5200 3400
+Connection ~ 5200 3400
+Wire Wire Line
+	5200 3600 5500 3600
+Wire Wire Line
+	5500 3600 5500 3550
+Wire Wire Line
+	5500 3550 5750 3550
+Connection ~ 5200 3600
+Wire Wire Line
+	5750 3650 5550 3650
+Wire Wire Line
+	5550 3650 5550 3800
+Wire Wire Line
+	5550 3800 5200 3800
+Connection ~ 5200 3800
+Wire Wire Line
+	5750 3750 5600 3750
+Wire Wire Line
+	5600 3750 5600 4000
+Wire Wire Line
+	5600 4000 5200 4000
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4200 5650 4200
+Wire Wire Line
+	5650 4200 5650 3850
+Wire Wire Line
+	5650 3850 5750 3850
+Connection ~ 5200 4200
+Wire Wire Line
+	5750 3950 5700 3950
+Wire Wire Line
+	5700 3950 5700 4400
+Wire Wire Line
+	5700 4400 5200 4400
+Wire Wire Line
+	5750 4150 5750 3950
+Connection ~ 5750 3950
+$EndSCHEMATC

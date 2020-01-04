@@ -1,0 +1,101 @@
+(module SwitchPad (layer F.Cu) (tedit 5E10C0F9)
+  (fp_text reference REF** (at 0.4 6.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SwitchPad (at 0 -7) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 3.8 0) (layer Dwgs.User) (width 0.05))
+  (fp_circle (center 0 0) (end 5.5 0) (layer Dwgs.User) (width 0.05))
+  (pad 9 smd custom (at 3.6 1.6) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 10 smd custom (at 3.852918 -0.8216 36) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 11 smd custom (at 2.634152 -2.929376 72) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 2 smd custom (at 0.409229 -3.918231 108) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 3 smd custom (at -1.972005 -3.410454 144) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 4 smd custom (at -3.6 -1.6 180) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 5 smd custom (at -3.852918 0.8216 216) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 6 smd custom (at -2.634152 2.929376 252) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 7 smd custom (at -0.409229 3.918231 288) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 8 smd custom (at 1.972005 3.410454 324) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 1.63 -0.95) (xy 1.77 -1.43) (xy 1.73 -2.23) (xy 1.58 -3)
+         (xy 1.28 -3.82) (xy 0.38 -1.81) (xy 0.32 -0.97)) (width 0))
+    ))
+  (pad 1 smd custom (at -2.2 0) (size 0.01 0.01) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_circle (center 2.25 0) (end 4.5 0) (width 1.5))
+    ))
+  (pad "" np_thru_hole custom (at 0 0 72) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+    ))
+)
